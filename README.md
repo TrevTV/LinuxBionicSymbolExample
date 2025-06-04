@@ -10,6 +10,6 @@ The same error occurs on the latest release SDK, 9.0.300.
 
 Built using NDK r21e on Windows 11.
 
-The library was built with the include batch script which just calls `dotnet restore` and `publish`.
+The library was built with the included batch script which just calls `dotnet restore` and `publish` with the `linux-bionic-arm64` runtime identitifer and some flags.
 
 The app was built using `gradlew installDebug`. The currently included library was built with 9.0.300.
