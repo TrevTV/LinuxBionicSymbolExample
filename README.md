@@ -1,3 +1,5 @@
+## Problem is caused by an outdated NDK. Using 27+, at least for .NET 9, works correctly.
+
 ### TL;DR of the problem
 
 When compiling a NativeAOT assembly for linux-bionic-arm64 using .NET 9.0.102 (set in `global.json`), it compiles and runs normally.
